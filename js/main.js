@@ -1,0 +1,1 @@
+var mySwiper=new Swiper(".swiper-container",{slidesPerView:1,loop:!0,navigation:{nextEl:".arrow"},breakpoints:{540:{slidesPerView:2}}}),menuButton=document.querySelector(".menu-button"),menu=document.querySelector(".header__content");menuButton.addEventListener("click",(function(){menu.classList.toggle("header-active"),menuButton.classList.toggle("menu-button-active")}));
